@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PROJEKT JS5-toggle</title>
+		<script
+			src="https://kit.fontawesome.com/810f4138f7.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css"
+		/>
+		<link rel="stylesheet" href="./CSS/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>weather app</h1>
+			<div class="top">
+				<div class="main-info">
+					<p class="city-name"></p>
+					<input type="text" placeholder = 'Wpisz nazwę miasta'><p class="warning"></p> <button class="add-btn">Wyślij</button>
+				</div>
+				<img src="./img/sun.png" alt="Obrazek przedstawiający pogodę" class="photo">
+			</div>
+			<hr>
+		<div class="bottom">
+			<div class="headings">
+				<p>Pogoda:</p>
+				<p>Temperatura:</p>
+				<p>Wilgotność:</p>
+			</div>
+			<div class="weather-info">
+				<p class="weather"></p>
+				<p class="temperature"></p>
+				<p class="humidity"></p>
+			</div>
+		</div>
+
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+		<script src="./js/main.js"></script>
+
+	</body>
+</html>
